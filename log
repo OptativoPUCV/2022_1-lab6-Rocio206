@@ -1,0 +1,494 @@
+do., 15 de may. de 2022  9:48:10: 
+ sudoku.c | 60 +++++++++++++++++++++++++++++++++++++++++++++---------------
+ 1 file changed, 45 insertions(+), 15 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:67:11: error: unused variable 'new' [-Werror=unused-variable]
+     Node *new = copy(n);
+           ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+fc22d0d
+do., 15 de may. de 2022  9:51:43: 
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:67:11: error: unused variable 'new' [-Werror=unused-variable]
+     Node *new = copy(n);
+           ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+7cbb89d
+do., 15 de may. de 2022  9:51:48: 
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:67:11: error: unused variable 'new' [-Werror=unused-variable]
+     Node *new = copy(n);
+           ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+17174aa
+do., 15 de may. de 2022  9:52:46: 
+ sudoku.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  0|5
+total_score: 0/70
+4b37e8b
+do., 15 de may. de 2022 10:07:21: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:68:5: error: 'flag' undeclared (first use in this function)
+     flag = 0;
+     ^~~~
+sudoku.c:68:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+0b4e225
+do., 15 de may. de 2022 10:07:40: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:73:37: error: 'flag' undeclared (first use in this function)
+         if (new->sudo[i][k] == 0 && flag == 0)
+                                     ^~~~
+sudoku.c:73:37: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+bcc11c2
+do., 15 de may. de 2022 10:07:59: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|5
+total_score: 0/70
+a9f61ba
+do., 15 de may. de 2022 10:12:36: 
+ sudoku.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+ tests:  0|5
+total_score: 0/70
+714d56d
+do., 15 de may. de 2022 10:21:08: 
+ sudoku.c | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+ tests:  0|5
+total_score: 0/70
+f381d5d
+do., 15 de may. de 2022 10:23:02: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|5
+total_score: 0/70
+cf86281
+do., 15 de may. de 2022 10:24:10: 
+ sudoku.c | 17 ++++++++++++-----
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+ tests:  0|5
+total_score: 0/70
+abfdfe2
+do., 15 de may. de 2022 10:26:09: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|5
+total_score: 0/70
+ee92f4f
+do., 15 de may. de 2022 10:27:05: 
+ sudoku.c | 2 ++
+ 1 file changed, 2 insertions(+)
+ tests:  0|5
+total_score: 0/70
+69c70a7
+do., 15 de may. de 2022 10:31:15: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+e293ce5
+do., 15 de may. de 2022 10:31:50: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+d8d4994
+do., 15 de may. de 2022 10:34:30: 
+ sudoku.c | 24 +-----------------------
+ 1 file changed, 1 insertion(+), 23 deletions(-)
+ tests:  0|0
+ecc2adf
+do., 15 de may. de 2022 10:37:36: 
+ sudoku.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+ tests:  1|5
+total_score: 5/70
+f42b824
+do., 15 de may. de 2022 10:40:02: 
+ sudoku.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:78:3: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   if(flag=1){
+   ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+aadecd6
+do., 15 de may. de 2022 10:40:23: 
+ sudoku.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 5/70
+69bfc1e
+do., 15 de may. de 2022 10:41:11: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|5
+total_score: 5/70
+0321490
+do., 15 de may. de 2022 10:44:29: 
+ sudoku.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  1|5
+total_score: 5/70
+a0e6b49
+do., 15 de may. de 2022 10:52:13: 
+ sudoku.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+ tests:  1|5
+total_score: 5/70
+a0e6b49
+do., 15 de may. de 2022 10:53:10: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+1b73553
+do., 15 de may. de 2022 10:59:21: 
+ sudoku.c | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+ tests:  0|5
+total_score: 0/70
+071b838
+do., 15 de may. de 2022 11:04:53: 
+ sudoku.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+ tests:  0|0
+3d6ed89
+do., 15 de may. de 2022 11:05:19: 
+ sudoku.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+66c01ad
+do., 15 de may. de 2022 11:33:33: 
+ sudoku.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:57:3: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   if (num[2] == 0)
+   ^~
+sudoku.c:61:5: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+     return 1;
+     ^~~~~~
+sudoku.c:55:7: error: unused variable 'valid' [-Werror=unused-variable]
+   int valid = 1;
+       ^~~~~
+sudoku.c:57:10: error: 'num[2]' is used uninitialized in this function [-Werror=uninitialized]
+   if (num[2] == 0)
+       ~~~^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+757db20
+do., 15 de may. de 2022 11:34:25: 
+ sudoku.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:57:14: error: comparison between pointer and integer [-Werror]
+   if (num[2] == NULL)
+              ^~
+sudoku.c:57:10: error: 'num[2]' is used uninitialized in this function [-Werror=uninitialized]
+   if (num[2] == NULL)
+       ~~~^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ec8466e
+do., 15 de may. de 2022 11:35:25: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:57:14: error: comparison between pointer and integer [-Werror]
+   if (num[2] == NULL)
+              ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ea99351
+do., 15 de may. de 2022 11:35:37: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+3433724
+do., 15 de may. de 2022 11:36:35: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:57:14: error: comparison between pointer and integer [-Werror]
+   if (num[2] ==NULL)
+              ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f984174
+do., 15 de may. de 2022 11:37:05: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  2|4
+total_score: 15/70
+58c964a
+do., 15 de may. de 2022 11:40:57: 
+ sudoku.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+ tests:  2|4
+total_score: 15/70
+7de30df
+do., 15 de may. de 2022 13:29:34: 
+ sudoku.c | 52 ++++++++++++++++++++++++++++++++++++++++++++++++----
+ 1 file changed, 48 insertions(+), 4 deletions(-)
+ tests:  2|4
+total_score: 15/70
+8f564f1
+do., 15 de may. de 2022 13:35:24: 
+ sudoku.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:102:10: error: 'valid' undeclared (first use in this function)
+   return valid;
+          ^~~~~
+sudoku.c:102:10: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c:103:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+61b971a
+do., 15 de may. de 2022 13:35:44: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+ad17350
+do., 15 de may. de 2022 13:37:39: 
+ sudoku.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+ tests:  2|4
+total_score: 15/70
+28912de
+do., 15 de may. de 2022 13:55:55: 
+ sudoku.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+ tests:  2|4
+total_score: 15/70
+89fb304
+do., 15 de may. de 2022 13:59:49: 
+ sudoku.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  2|4
+total_score: 15/70
+3be67ed
+do., 15 de may. de 2022 14:10:21: 
+ sudoku.c | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:78:52: error: suggest parentheses around comparison in operand of '==' [-Werror=parentheses]
+       if (num[n->sudo[i][k]] == 0 && n->sudo[i][k] != 0 == 0)
+                                      ~~~~~~~~~~~~~~^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c2f9181
+do., 15 de may. de 2022 14:10:58: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+fcbcb94
+do., 15 de may. de 2022 14:12:37: 
+ sudoku.c | 15 +++++----------
+ 1 file changed, 5 insertions(+), 10 deletions(-)
+ tests:  2|4
+total_score: 15/70
+0f5e11c
+do., 15 de may. de 2022 14:14:09: 
+ sudoku.c | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:86:7: error: expected ';' before '}' token
+       }
+       ^
+Compilation failed
+bc9e8b4
+do., 15 de may. de 2022 14:14:33: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+f7edc29
+do., 15 de may. de 2022 14:45:37: 
+ sudoku.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+ tests:  0|0
+64eaaa5
+do., 15 de may. de 2022 15:57:12: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+1499bce
+do., 15 de may. de 2022 17:11:20: 
+ sudoku.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+ tests:  0|0
+1a86f47
+do., 15 de may. de 2022 17:19:22: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+851ff53
+do., 15 de may. de 2022 18:24:31: 
+ sudoku.c | 29 ++++++++++++++++++++++++++++-
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'DFS':
+sudoku.c:175:15: error: void value not ignored as it ought to be
+     Node* n = pop(pila);
+               ^~~
+sudoku.c: In function 'is_final':
+sudoku.c:186:10: error: return makes integer from pointer without a cast [-Werror=int-conversion]
+   return NULL;
+          ^~~~
+test.c: In function 'test_dfs':
+test.c:206:19: error: implicit declaration of function 'DFS' [-Werror=implicit-function-declaration]
+     Node* final = DFS(initial, &cont);
+                   ^~~
+test.c:206:19: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:230:11: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+     final = DFS(initial, &cont);
+           ^
+In file included from test.c:5:0:
+At top level:
+sudoku.c:170:7: error: 'DFS' defined but not used [-Werror=unused-function]
+ Node *DFS(Node *initial, int *cont)
+       ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+a87d104
+do., 15 de may. de 2022 18:26:32: 
+ sudoku.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_final':
+sudoku.c:187:10: error: return makes integer from pointer without a cast [-Werror=int-conversion]
+   return NULL;
+          ^~~~
+test.c: In function 'test_dfs':
+test.c:206:19: error: implicit declaration of function 'DFS' [-Werror=implicit-function-declaration]
+     Node* final = DFS(initial, &cont);
+                   ^~~
+test.c:206:19: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:230:11: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+     final = DFS(initial, &cont);
+           ^
+In file included from test.c:5:0:
+At top level:
+sudoku.c:170:7: error: 'DFS' defined but not used [-Werror=unused-function]
+ Node *DFS(Node *initial, int *cont)
+       ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+061572d
+do., 15 de may. de 2022 18:28:42: 
+ sudoku.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+sudoku.c: In function 'DFS':
+sudoku.c:179:32: error: 'n' undeclared (first use in this function)
+     List* list = get_adj_nodes(n);
+                                ^
+sudoku.c:179:32: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c: At top level:
+sudoku.c:188:3: error: expected identifier or '(' before 'return'
+   return NULL;
+   ^~~~~~
+sudoku.c:189:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+sudoku.c: In function 'DFS':
+sudoku.c:187:3: error: control reaches end of non-void function [-Werror=return-type]
+   }
+   ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+4d95f25
+do., 15 de may. de 2022 18:30:23: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+da9f9bc
+do., 15 de may. de 2022 18:58:46: 
+ sudoku.c | 11 +++++------
+ 1 file changed, 5 insertions(+), 6 deletions(-)
+ tests:  0|0
+8df7349
+do., 15 de may. de 2022 20:21:17: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+be2f90a
+do., 15 de may. de 2022 21:28:56: 
+ sudoku.c | 2 ++
+ 1 file changed, 2 insertions(+)
+ tests:  0|0
+3218295
+do., 15 de may. de 2022 22:41:05: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:56:13: error: unused variable 'p' [-Werror=unused-variable]
+   int i, k, p;
+             ^
+sudoku.c: At top level:
+sudoku.c:114:3: error: expected identifier or '(' before '}' token
+   }
+   ^
+sudoku.c:115:3: error: expected identifier or '(' before 'return'
+   return 1;
+   ^~~~~~
+sudoku.c:116:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+sudoku.c: In function 'is_valid':
+sudoku.c:113:5: error: control reaches end of non-void function [-Werror=return-type]
+     }
+     ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c2a5ec2
+do., 15 de may. de 2022 22:41:51: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:56:13: error: unused variable 'p' [-Werror=unused-variable]
+   int i, k, p;
+             ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+d0190f9
+do., 15 de may. de 2022 22:54:11: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file a.out: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation failed
+a1dfd27
+ tests:  0|0

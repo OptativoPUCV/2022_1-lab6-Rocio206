@@ -7,6 +7,9 @@
 target_file="sudoku.c"
 testcode="test.c list.c"
 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 #Verifca si se realizaron cambios 
 CHANGED=$(git diff --ignore-space-at-eol -b -w --ignore-blank-lines $target_file)
 
@@ -61,7 +64,7 @@ if ./a.out &> /dev/null ; then
 
 else
   echo "Errors in execution =O" >&3
-  gcc -g $testcode >&3
+  gcc -g $testcode -o a.out >&3
   gdb -silent -ex='set disable-randomization off' -ex='set confirm off' -ex='run' -ex=quit a.out >&3
 
 fi
