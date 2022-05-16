@@ -4,8 +4,8 @@
 
 # Everything below will go to the file 'log':
 
-target_file="sudoku.c"
-testcode="test.c list.c"
+target_file="heap.c"
+testcode="test.c"
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
